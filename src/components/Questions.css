@@ -1,0 +1,112 @@
+.d-flex{display: flex;}
+.item-center{align-items: center;}
+.content-around{justify-content: space-around;}
+.m-auto{margin: auto;}
+.w100{width: 100%;}
+.bg-color{background-color: rgba(255, 255, 255, 0.8);}
+.red{background-color: red;}
+.green{background-color: green;}
+.text-center{text-align: center;}
+
+body{
+    font-family: 'Hind', sans-serif;
+    background-image: url(../images/Geometric-Pattern-Wallpaper-7.jpg);
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 32px;
+}
+
+.container{
+    width: 70%;
+    border-radius: 15px;
+    margin: 10% auto;
+}
+
+.content{
+    width: 90%;
+    padding: 15% 0%; 
+
+}
+
+label>p{
+    margin-top: -1%;
+    font-size: 18px;
+    padding-left: 3px;
+}
+.btn-place{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.btn{
+    padding: 16px 0;
+    justify-content: center;
+}
+.answers{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+.login{
+    margin-top: 1%;
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.error{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+.loginInput{
+    width: 260px;
+    height: 50px;
+    font-size: 22px;
+    appearance:textfield;
+}
+.authBtn{
+    margin-left: -20%;
+}
+button{
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(59, 59, 255);
+  
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+@media screen and (max-width: 678px){
+    .container{width: 90%; margin-top: 50%;}
+    p{
+        font-size: 26px;
+    }
+}
+
+
